@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/purrlianboy/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/purrlianboy.json"
+  },
+  {
+    "op": "add",
+    "path": "/purrlianfemale/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/purrlian.json"
+  }
+ ]

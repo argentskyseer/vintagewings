@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/longshankboy/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/longshankboy.json"
+  },
+  {
+    "op": "add",
+    "path": "/longshankfemale/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/longshank.json"
+  }
+ ]

@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/alphaboy/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/alphaboys.json"
+  },
+  {
+    "op": "add",
+    "path": "/alphas/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/alphas.json"
+  },
+ ]

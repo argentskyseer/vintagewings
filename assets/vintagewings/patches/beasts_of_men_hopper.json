@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/hopperboys/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/hopperboys.json"
+  },
+  {
+    "op": "add",
+    "path": "/hoppers/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/hoppers.json"
+  }
+ ]

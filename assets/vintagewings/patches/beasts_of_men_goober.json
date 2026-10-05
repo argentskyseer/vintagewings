@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/gooberboys/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/gooberboy.json"
+  },
+  {
+    "op": "add",
+    "path": "/goobers/SkinnableParts/-",
+    "dependsOn": [{ "modid": "beastsofmen" }],
+    "value": {
+      "code": "wings",
+      "type": "shape",
+      "shapeTemplate": {
+        "base": "vintagewings:entity/humanoid/seraphskinparts/wings/{code}"
+      },
+      "variants": [
+        {
+          "code": "none"
+        },
+        {
+          "code": "feathered-closed"
+        }
+      ]
+    },
+    "file": "beastsofmen:config/customplayermodels/goober.json"
+  }
+ ]
